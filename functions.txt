@@ -1,0 +1,38 @@
+PANDAS FUNCTIONS AND ATTRIBUTES
+
+    read_csv( parse_dates=[])
+    shape
+    info()
+    head()
+    sort_values(column , ascending=True or False )
+    isnull()
+    fillna( input , inplace = )
+    mean()
+    mode()
+    sd()
+    replace(key(what was there) , value(what to be repalaced with))
+    drop(column , axis = 1(column) or 0 (row) , inplace = True)
+    drop_duplicates()
+    dataframe.nlargest(how many to be displayed , column)
+    dataframe.nsmallest(how many to be displayed , column)
+    sample()
+    describe()
+    groupby()
+    agg()
+    assign(column)
+    convert()
+    to_csv
+
+MATPLOTLIB AND SEABORN
+
+    TAKE plt as matplotlib 
+    TAKE sbn as SEABORN
+
+    plt.style.available
+    plt.style.use(name of the style)
+    sbn.typeofgraph(dataframe[column],palette,hue)
+    plt.xlabel
+    plt.ylabel
+    plt.title
+    estimator=numpy.measuresofcentraltendancies
+    corr()
